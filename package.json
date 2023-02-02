@@ -1,0 +1,27 @@
+{
+  "name": "wence-app",
+  "version": "1.0.0",
+  "description": "",
+   "type": "module",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
+  },
+   "dependencies": {
+    "@studio-freight/lenis": "^0.1.2",
+    "gsap": "^3.10.4",
+    "imagesloaded": "^5.0.0",
+    "locomotive-scroll": "^3.6.1",
+    "parcel-bundler": "^1.12.5",
+    "splitting": "^1.0.6"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
