@@ -13,7 +13,6 @@ body {
 	--color-bg: #e3e0d8;
 	--color-link: #744229;
 	--color-link-hover: #000;
-	--color-heading-main: #000;
 	--color-heading-main-alt: #fff;
 	--color-heading-sub: #374b41;
 	--color-menu: #000;
@@ -400,6 +399,7 @@ a:focus-visible {
 	background: #000;
 	position: relative;
 	color: #fff;
+	padding-bottom: 10px;
 	--color-link: #988c6c;
 	--color-link-hover: #fff;
 }
@@ -811,14 +811,6 @@ a:focus-visible {
 	display: none;
 }
 
-.credits {
-	align-self: flex-start;
-	padding: 5rem 0 0 0;
-}
-
-.credits a {
-	text-decoration: underline;
-}
 
 @media screen and (min-width: 53em) {
 	.frame {
@@ -862,9 +854,7 @@ a:focus-visible {
 		stroke-width: var(--cursor-stroke-width);
 		opacity: 0.7;
 	}
-	.credits {
-		padding-left: 25vw;
-	}
+
 }
 
 
