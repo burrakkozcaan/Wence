@@ -2,7 +2,6 @@
 *::after,
 *::before {
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 :root {
@@ -20,8 +19,7 @@ body {
   --color-menu-hover: #e3e0d8;
   --color-bg-menu: #000;
   --color-link-alt: #3e4843;
-  --color-link-hover: #000;
-  color: var(--color-text);
+  --color: var(--color-text);
   --color-menu-deco: #9c0e0e;
   background-color: var(--color-bg);
   --cursor-stroke: none;
@@ -43,7 +41,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
-  overflow-x: hidden;
 }
 
 a {
