@@ -6,7 +6,6 @@
 
 :root {
   font-size: 18px;
-  overflow: hidden;
 }
 body {
   margin: 0;
@@ -42,6 +41,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
+  overflow: hidden;
 }
 
 a {
