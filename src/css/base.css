@@ -19,7 +19,8 @@ body {
   --color-menu-hover: #e3e0d8;
   --color-bg-menu: #000;
   --color-link-alt: #3e4843;
-  --color: var(--color-text);
+  --color-link-hover: #000;
+  color: var(--color-text);
   --color-menu-deco: #9c0e0e;
   background-color: var(--color-bg);
   --cursor-stroke: none;
@@ -41,7 +42,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 a {
