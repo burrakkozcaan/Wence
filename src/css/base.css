@@ -6,6 +6,7 @@
 
 :root {
   font-size: 18px;
+  overflow: hidden;
 }
 body {
   margin: 0;
